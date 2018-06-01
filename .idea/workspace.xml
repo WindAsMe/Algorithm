@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c856309-ef14-40b6-a369-3ea5b68b2cf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/minimumTotal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/work_4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minimumTotal.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minimumTotal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/minimumTotal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="71">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work_4" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/work_4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -271,9 +279,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28664497" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25407165" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18287526" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28664497" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25407165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18287526" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -449,8 +457,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/minimumTotal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="71">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/work_4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
