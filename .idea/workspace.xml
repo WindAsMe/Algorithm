@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c856309-ef14-40b6-a369-3ea5b68b2cf2" name="Default" comment="" />
+    <list default="true" id="8c856309-ef14-40b6-a369-3ea5b68b2cf2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
     <SUITE FILE_PATH="coverage/Python$singleNumber.coverage" NAME="singleNumber Coverage Results" MODIFIED="1527830762522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$longestCommonPrefix.coverage" NAME="longestCommonPrefix Coverage Results" MODIFIED="1527409109341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$isHappy.coverage" NAME="isHappy Coverage Results" MODIFIED="1527860813307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
+    <SUITE FILE_PATH="coverage/Python$findMin.coverage" NAME="findMin Coverage Results" MODIFIED="1527935002026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$increasingTriplet.coverage" NAME="increasingTriplet Coverage Results" MODIFIED="1527917437402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
   </component>
   <component name="FileEditorManager">
@@ -28,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="increasingTriplet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="increasingTriplet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/increasingTriplet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findMin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -61,6 +74,7 @@
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/minimumTotal.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/isHappy.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/increasingTriplet.py" />
+        <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py" />
       </list>
     </option>
   </component>
@@ -74,8 +88,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="316" />
-    <option name="y" value="29" />
+    <option name="x" value="441" />
+    <option name="y" value="24" />
     <option name="width" value="988" />
     <option name="height" value="744" />
   </component>
@@ -141,8 +155,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.increasingTriplet">
-    <configuration name="climbStairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.findMin">
+    <configuration name="findMin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +169,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/climbStairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,19 +252,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.climbStairs" />
       <item itemvalue="Python.singleNumber" />
       <item itemvalue="Python.minimumTotal" />
       <item itemvalue="Python.isHappy" />
       <item itemvalue="Python.increasingTriplet" />
+      <item itemvalue="Python.findMin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findMin" />
         <item itemvalue="Python.increasingTriplet" />
         <item itemvalue="Python.isHappy" />
         <item itemvalue="Python.minimumTotal" />
         <item itemvalue="Python.singleNumber" />
-        <item itemvalue="Python.climbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -268,15 +282,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="316" y="29" width="988" height="744" extended-state="0" />
+    <frame x="441" y="24" width="988" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28664497" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25407165" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28664497" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25407165" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18921776" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -335,7 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/work_4">
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/work_5">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="8" />
@@ -500,7 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/work_4">
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/work_5">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="8" />
@@ -518,6 +533,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
