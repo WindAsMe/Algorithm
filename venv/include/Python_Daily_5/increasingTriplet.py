@@ -20,6 +20,7 @@ class Solution:
         else:
             p1 = int("INF")
             p2 = int("INF")
+            # Find the smaller and matched
             for i in range(0, len(nums)):
                 if nums[i] <= p1:
                     p1 = nums[i]
