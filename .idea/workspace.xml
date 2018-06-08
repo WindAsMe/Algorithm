@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c856309-ef14-40b6-a369-3ea5b68b2cf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/MyQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$moveZeroes.coverage" NAME="moveZeroes Coverage Results" MODIFIED="1528291498042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$twoSum.coverage" NAME="twoSum Coverage Results" MODIFIED="1527935939782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
+    <SUITE FILE_PATH="coverage/Python$findKthLargest.coverage" NAME="findKthLargest Coverage Results" MODIFIED="1528430996155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$minimumTotal.coverage" NAME="minimumTotal Coverage Results" MODIFIED="1527845149786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$climbStairs.coverage" NAME="climbStairs Coverage Results" MODIFIED="1527684979299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$singleNumber.coverage" NAME="singleNumber Coverage Results" MODIFIED="1527830762522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
@@ -47,17 +48,26 @@
       <file leaf-file-name="moveZeroes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/moveZeroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="228">
               <caret line="12" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyQueue.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyQueue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/MyQueue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="142">
+              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findKthLargest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -94,6 +104,7 @@
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/firstBadVersion.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/moveZeroes.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/MyQueue.py" />
+        <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py" />
       </list>
     </option>
   </component>
@@ -107,8 +118,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="451" />
-    <option name="y" value="76" />
+    <option name="x" value="191" />
+    <option name="y" value="24" />
     <option name="width" value="986" />
     <option name="height" value="738" />
   </component>
@@ -174,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.moveZeroes">
+  <component name="RunManager" selected="Python.findKthLargest">
     <configuration name="containsDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,6 +205,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="findKthLargest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/include/Python_Daily_5" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="findMin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,25 +238,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="increasingTriplet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/include/Python_Daily_5" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/increasingTriplet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,19 +282,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.increasingTriplet" />
       <item itemvalue="Python.findMin" />
       <item itemvalue="Python.twoSum" />
       <item itemvalue="Python.containsDuplicate" />
       <item itemvalue="Python.moveZeroes" />
+      <item itemvalue="Python.findKthLargest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findKthLargest" />
         <item itemvalue="Python.moveZeroes" />
         <item itemvalue="Python.containsDuplicate" />
         <item itemvalue="Python.twoSum" />
         <item itemvalue="Python.findMin" />
-        <item itemvalue="Python.increasingTriplet" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +312,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="322" y="24" width="986" height="738" extended-state="0" />
+    <frame x="191" y="24" width="986" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,12 +320,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25657895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20338982" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28453946" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25615764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20762712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -325,6 +335,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,13 +345,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/isHappy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/increasingTriplet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -637,15 +641,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/moveZeroes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="228">
           <caret line="12" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/MyQueue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="142">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
