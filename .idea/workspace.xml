@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c856309-ef14-40b6-a369-3ea5b68b2cf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/heapqTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +16,7 @@
     <SUITE FILE_PATH="coverage/Python$twoSum.coverage" NAME="twoSum Coverage Results" MODIFIED="1527935939782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$findKthLargest.coverage" NAME="findKthLargest Coverage Results" MODIFIED="1528430996155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$minimumTotal.coverage" NAME="minimumTotal Coverage Results" MODIFIED="1527845149786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
+    <SUITE FILE_PATH="coverage/Python$heapqTest.coverage" NAME="heapqTest Coverage Results" MODIFIED="1528431536193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$climbStairs.coverage" NAME="climbStairs Coverage Results" MODIFIED="1527684979299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$singleNumber.coverage" NAME="singleNumber Coverage Results" MODIFIED="1527830762522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$longestCommonPrefix.coverage" NAME="longestCommonPrefix Coverage Results" MODIFIED="1527409109341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
@@ -63,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findKthLargest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findKthLargest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="349">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heapqTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/heapqTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#174#186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +117,7 @@
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/moveZeroes.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/MyQueue.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py" />
+        <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/heapqTest.py" />
       </list>
     </option>
   </component>
@@ -118,8 +131,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
-    <option name="y" value="24" />
+    <option name="x" value="457" />
+    <option name="y" value="121" />
     <option name="width" value="986" />
     <option name="height" value="738" />
   </component>
@@ -185,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findKthLargest">
+  <component name="RunManager" selected="Python.heapqTest">
     <configuration name="containsDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +237,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="findMin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="heapqTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +250,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/heapqTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +295,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.findMin" />
       <item itemvalue="Python.twoSum" />
       <item itemvalue="Python.containsDuplicate" />
       <item itemvalue="Python.moveZeroes" />
       <item itemvalue="Python.findKthLargest" />
+      <item itemvalue="Python.heapqTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.heapqTest" />
         <item itemvalue="Python.findKthLargest" />
         <item itemvalue="Python.moveZeroes" />
         <item itemvalue="Python.containsDuplicate" />
         <item itemvalue="Python.twoSum" />
-        <item itemvalue="Python.findMin" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +325,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="24" width="986" height="738" extended-state="0" />
+    <frame x="524" y="117" width="986" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -320,9 +333,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28453946" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25615764" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20762712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28453946" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25493422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20762712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -345,13 +358,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/increasingTriplet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findMin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -655,8 +661,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findKthLargest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="349">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/heapqTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#174#186#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
