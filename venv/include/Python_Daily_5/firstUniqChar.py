@@ -16,8 +16,13 @@ class Solution:
         :rtype: int
         """
         for i in range(len(s)):
-            if s.count(s[i], 0, len(s)) == 1:
+            # 1. this word not occur the before and after (AC)
+            if s[i] not in s[i + 1:] and s[i] not in s[:i]:
                 return i
+
+            # 2. Calculate the occurs time (TL)
+            # if s.count(s[i], 0, len(s)) == 1:
+            #     return i
         return -1
 
 
