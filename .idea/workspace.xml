@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c856309-ef14-40b6-a369-3ea5b68b2cf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_5/findTheDifference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_6/test.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/include/Python_Daily_6/wavToPcm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +25,14 @@
     <SUITE FILE_PATH="coverage/Python$findMin.coverage" NAME="findMin Coverage Results" MODIFIED="1527935002026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$rob.coverage" NAME="rob Coverage Results" MODIFIED="1528437088794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$addDigits.coverage" NAME="addDigits Coverage Results" MODIFIED="1528453727149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
+    <SUITE FILE_PATH="coverage/Python$wavToPcm.coverage" NAME="wavToPcm Coverage Results" MODIFIED="1534251146999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_6" />
     <SUITE FILE_PATH="coverage/Python$heapTest.coverage" NAME="heapTest Coverage Results" MODIFIED="1528431958762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_2" />
     <SUITE FILE_PATH="coverage/Python$findKthLargest.coverage" NAME="findKthLargest Coverage Results" MODIFIED="1528430996155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$findTheDifference.coverage" NAME="findTheDifference Coverage Results" MODIFIED="1528882579058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$singleNumber.coverage" NAME="singleNumber Coverage Results" MODIFIED="1527830762522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$containsDuplicate.coverage" NAME="containsDuplicate Coverage Results" MODIFIED="1528290857046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$firstUniqChar.coverage" NAME="firstUniqChar Coverage Results" MODIFIED="1528871114132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
+    <SUITE FILE_PATH="coverage/Python$countSegments.coverage" NAME="countSegments Coverage Results" MODIFIED="1528966206095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$increasingTriplet.coverage" NAME="increasingTriplet Coverage Results" MODIFIED="1527917437402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$summaryRanges.coverage" NAME="summaryRanges Coverage Results" MODIFIED="1528453496367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
     <SUITE FILE_PATH="coverage/Python$findDuplicate.coverage" NAME="findDuplicate Coverage Results" MODIFIED="1528687198969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include/Python_Daily_5" />
@@ -84,17 +87,29 @@
       <file leaf-file-name="canConstruct.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/canConstruct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findTheDifference.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findTheDifference.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findTheDifference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="198">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wavToPcm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_6/wavToPcm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#150#159#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +155,8 @@
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/canConstruct.py" />
         <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/findTheDifference.py" />
+        <option value="$PROJECT_DIR$/venv/include/Python_Daily_5/countSegments.py" />
+        <option value="$PROJECT_DIR$/venv/include/Python_Daily_6/wavToPcm.py" />
       </list>
     </option>
   </component>
@@ -153,8 +170,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="69" />
+    <option name="x" value="573" />
+    <option name="y" value="33" />
     <option name="width" value="986" />
     <option name="height" value="738" />
   </component>
@@ -164,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,13 +205,12 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="Python_Daily_5" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Daily_6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,9 +218,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.40243903" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv/include/Python_Daily_6" />
       <recent name="$PROJECT_DIR$/venv/include/Python_Daily_5" />
       <recent name="$PROJECT_DIR$/venv/include" />
     </key>
@@ -220,26 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findTheDifference">
-    <configuration name="addDigits" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/include/Python_Daily_5" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/addDigits.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.wavToPcm">
     <configuration name="canConstruct" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,7 +260,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="findDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="countSegments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,7 +273,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/findDuplicate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_5/countSegments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,20 +317,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="wavToPcm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/include/Python_Daily_6" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/Python_Daily_6/wavToPcm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.addDigits" />
-      <item itemvalue="Python.findDuplicate" />
       <item itemvalue="Python.firstUniqChar" />
       <item itemvalue="Python.canConstruct" />
       <item itemvalue="Python.findTheDifference" />
+      <item itemvalue="Python.countSegments" />
+      <item itemvalue="Python.wavToPcm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wavToPcm" />
+        <item itemvalue="Python.countSegments" />
         <item itemvalue="Python.findTheDifference" />
         <item itemvalue="Python.canConstruct" />
         <item itemvalue="Python.firstUniqChar" />
-        <item itemvalue="Python.findDuplicate" />
-        <item itemvalue="Python.addDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -347,17 +367,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="69" width="986" height="738" extended-state="0" />
-    <editor active="true" />
+    <frame x="573" y="33" width="986" height="738" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28453946" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.25287357" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22457626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28453946" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.25164473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23728813" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -379,21 +398,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/climbStairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/singleNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/minimumTotal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -683,15 +693,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/canConstruct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/countSegments.py" />
     <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_5/findTheDifference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="198">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/Python_Daily_6/wavToPcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#150#159#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
